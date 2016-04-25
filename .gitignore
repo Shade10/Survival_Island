@@ -1,47 +1,52 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ibrary/
+[Ww]eb[Bb]uild/*
+[Ww]indows[Bb]uild/*
 
-# Folder config file
-Desktop.ini
+*.stackdump
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Unity3D generated meta files
+*.pidb.meta
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+*.tmp
+*.userprefs
+*.csproj
+*.suo
+*.sln*
+*.user
+*.unityproj
+*.log
+*.svd
 
-# Windows shortcuts
-*.lnk
+# Ignore UnityVS so users can use different versions
+UnityVS/*
+UnityVS**
+.vs/
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+# ignoring pidb, they are just code completion caching data according to:
+# http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
+*.pidb
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
 ._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+*.coverage
